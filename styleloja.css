@@ -1,0 +1,100 @@
+/* ==================== CONFIGURAÇÕES GERAIS ============================= */
+
+/* Aqui estamos removendo as margens e espaçamentos que o navegador coloca automaticamente.*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* Fonte */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* cabeçalho - class="header" */
+.header{
+    background-color: rgb(99, 194, 218);
+    border-bottom: 4px solid pink; /* linha bonitinha */
+}
+
+/* cabeçalho - <a class="logo">*/
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Cria um espaço entre a lua e o texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: blueviolet;
+    font-weight: 700; /* negrito */
+
+    object-fit: contain; /*ajuda a manter a imagem dentro do espaço definido*/
+}
+
+/* cabeçalho - <nav class="menu">*/
+.menu{
+    display: flex; /*links ficam lado a lado*/
+    gap: 30px; /* Cria um espaço*/
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: brown;
+    font-size: 15px;
+    font-weight: 500; /* negrito */
+    
+}
+.container {
+/* Cabeçalho - <div class="container"> */
+
+    /* O container ocupa 90% da largura da tela */
+    width: 90%;
+
+    /*
+        Impede que o conteúdo fique gigante em telas muito grandes.
+    */
+    max-width: 1200px;
+
+    /*
+        0 = margem em cima e embaixo auto = centraliza esquerda e direita
+    */
+    margin: 0 auto;
+
+    /*
+        Coloca os elementos lado a lado e permite organizar o espaço entre eles.
+    */
+    display: flex;
+
+    /* Alinha os elementos verticalmente */
+    align-items: center;
+
+    /* Distribui o espaço entre os elementos */
+    justify-content: space-between;
+}
+
+/* ==================== BOTÕES DO CABEÇALHO ==================== */
+
+.submenu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.botao-cabe {
+    display: flex;
+    align-items: center;
+    gap: 8px; /*espaço entre o SVG e o texto*/
+
+    background: none;
+    border: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    transition: 0,3s ease;
+}
+.botao-cabe:hover{ /*quando o mouse passar em cima muda de cor*/
+    color: blueviolet;
+}
