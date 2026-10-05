@@ -118,13 +118,16 @@ O projeto será desenvolvido gradualmente:
 * [ ] Carrossel de imagens
 * [ ] Área de promoções
 * [ ] Newsletter
-* [ ] Footer
 * [ ] Responsividade
 * [ ] Animações e efeitos visuais
 * [ ] Efeito de estrelas/glitter seguindo o mouse ✨
 * [ ] Interações com JavaScript
 * [ ] Carrinho
 * [ ] Pesquisa e filtros
+* [ ] Link para LinkedIn
+* [ ] Footer com redes/contatos
+* [ ] Publicação do projeto no LinkedIn
+* [ ] Transições entre páginas
 
 ---
 
