@@ -21,6 +21,7 @@ Além de praticar programação, o projeto também serve para exercitar:
 * Organização de código;
 * HTML semântico;
 * CSS e Flexbox;
+* Cores, tipografia e efeitos visuais;
 * Responsividade;
 * Interações com JavaScript;
 * Organização visual de uma interface.
@@ -44,35 +45,44 @@ Até o momento, foram trabalhados:
 * Efeitos de `hover`;
 * Transições com CSS;
 * Configuração da fonte **Poppins**;
-* Estrutura inicial responsiva.
+* Borda inferior para acabamento visual;
+* Definição inicial da paleta de cores.
 
-### 📚 Conceitos praticados
+### ✦ Destaque
 
-Durante essa etapa, foram estudados conceitos como:
+Após o cabeçalho, foi criada a primeira área de destaque da página.
 
-```text
-HTML
-├── header
-├── div
-├── nav
-├── a
-├── button
-├── span
-├── img
-└── svg
+Até o momento, foram trabalhados:
 
-CSS
-├── class
-├── margin
-├── padding
-├── box-sizing
-├── display: flex
-├── align-items
-├── justify-content
-├── gap
-├── hover
-└── transition
-```
+* Título principal;
+* Texto de apresentação;
+* Botão "Comprar agora";
+* Organização do conteúdo dentro de um card;
+* Borda e cantos arredondados;
+* Espaçamento interno com `padding`;
+* Fundo branco;
+* Sombra utilizando `box-shadow`;
+* Tipografia e espaçamento do título;
+* Gradiente aplicado ao texto do título.
+
+---
+
+## 🎨 Identidade visual
+
+A Lunara Store está sendo construída com uma identidade visual inspirada em tons de **azul, azul acinzentado, branco e preto**, criando uma aparência delicada, moderna e levemente dark.
+
+Entre as cores utilizadas estão:
+
+* `#87ceeb`
+* `#9cc7da`
+* `#c6e6f5`
+* `#598496`
+* `#2f4149`
+* `#1b2327`
+* `#ffffff`
+* `#000000`
+
+O título da área de destaque também utiliza um **gradiente**, explorando a combinação entre preto e tons de azul.
 
 ---
 
@@ -80,7 +90,7 @@ CSS
 
 * **HTML5** — estrutura da página
 * **CSS3** — estilização e layout
-* **JavaScript** — interações futuras
+* **JavaScript** — interações
 * **SVG** — ícones da interface
 * **Google Fonts** — fonte Poppins
 
@@ -98,24 +108,23 @@ O projeto será desenvolvido gradualmente:
 * [x] Botões do header
 * [x] Ícones SVG
 * [x] Efeitos de hover
-* [ ] Hero / banner principal
+* [x] Área de destaque
+* [x] Card de destaque
+* [x] Borda e cantos arredondados
+* [x] Sombra
+* [x] Gradiente no título
 * [ ] Categorias
 * [ ] Cards de produtos
+* [ ] Carrossel de imagens
 * [ ] Área de promoções
 * [ ] Newsletter
 * [ ] Footer
 * [ ] Responsividade
+* [ ] Animações e efeitos visuais
+* [ ] Efeito de estrelas/glitter seguindo o mouse ✨
 * [ ] Interações com JavaScript
 * [ ] Carrinho
 * [ ] Pesquisa e filtros
-
----
-
-## 💜 Objetivo
-
-Mais do que criar uma loja virtual, este projeto tem como objetivo **aprender desenvolvimento web na prática**, construindo cada parte de forma gradual e entendendo o motivo de cada escolha no código.
-
-> 🌙 *Pequenos passos, código por código, até a Lunara ganhar vida.*
 
 ---
 
@@ -124,3 +133,5 @@ Mais do que criar uma loja virtual, este projeto tem como objetivo **aprender de
 🚧 **Em desenvolvimento**
 
 Este projeto está sendo construído durante meus estudos de desenvolvimento web e receberá novas funcionalidades conforme avanço no aprendizado.
+
+> 🌙 *Pequenos passos, código por código, até a Lunara ganhar vida.*
