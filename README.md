@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-87CEEB?style=for-the-badge" alt="Status: Em desenvolvimento">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-em%20aprendizado-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
 <p align="center">
@@ -74,10 +74,10 @@ A fonte utilizada é **Poppins**, escolhida para manter uma aparência limpa e m
 - **HTML5:** estruturação do conteúdo.
 - **CSS3:** estilos, layouts, cores e efeitos visuais.
 - **SVG:** ícones da interface.
-- **Google Fonts:** tipografia Poppins.
+- **Google Fonts:** fonte Poppins.
 - **GitHub Pages:** publicação do projeto.
 
-O JavaScript faz parte dos objetivos de aprendizado para as próximas etapas.
+O JavaScript faz parte das tecnologias previstas para as próximas etapas de desenvolvimento.
 
 ## 🗺️ Roadmap
 
@@ -87,10 +87,13 @@ O JavaScript faz parte dos objetivos de aprendizado para as próximas etapas.
 - [x] Configuração da fonte Poppins.
 - [x] Cabeçalho e logotipo.
 - [x] Menu de navegação.
-- [x] Botões e ícones SVG.
+- [x] Botões do cabeçalho.
+- [x] Ícones SVG.
 - [x] Efeitos de hover e transições básicas.
-- [x] Seção de destaque.
-- [x] Card com bordas arredondadas e sombra.
+- [x] Área de destaque.
+- [x] Card de destaque.
+- [x] Borda e cantos arredondados.
+- [x] Sombra.
 - [x] Gradiente no título.
 - [ ] Seção de categorias.
 - [ ] Cards de produtos.
