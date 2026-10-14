@@ -200,6 +200,11 @@ body {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3); /*sombra*/
 
      background-color: #ffffff;
+
+      /* Mantenha todas as propriedades que já criamos */
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 /* ==================== BOTÃO DO DESTAQUE ==================== */
@@ -222,5 +227,29 @@ body {
 
 .botao-destaque:hover {
     background-color: #2f4149;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(89, 132, 150, 0.8);
+}
+/* ==================== Imagem Destaque ==================== */
+.imagem-destaque {
+    flex: 1; /* permite que a área da imagem ocupe o espaço disponível no card. */
+   min-width: 0; /* permite que as colunas se ajustem ao espaço disponível, sem ficarem presas à largura mínima automática do conteúdo. */
+    max-width: 500px;
 }
 
+.imagem-destaque {
+    flex: 2; /* dá à área da imagem uma participação maior na divisão. */
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+
+    border-radius: 15px;
+}
